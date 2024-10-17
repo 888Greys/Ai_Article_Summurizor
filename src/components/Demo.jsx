@@ -25,9 +25,11 @@ const Demo = () => {
             className='submit_btn'>
             👍 
           </button>
-
         </form>
+        {/* Browse URL history */}
+
       </div>
+      {/* Display The Results */}
     </section>
   )
 }
