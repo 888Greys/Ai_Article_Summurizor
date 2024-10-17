@@ -13,6 +13,13 @@ const Demo = () => {
           alt='link_icon'
           className='absolute left-0 my-2 ml-3 w-5'/>
 
+          <input className='url_input peer'
+          type='url'
+          placeholder='Enter a URL'
+          value=""
+          onChange={() => {}}
+          required/>
+
         </form>
       </div>
     </section>
