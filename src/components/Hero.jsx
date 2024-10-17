@@ -5,7 +5,15 @@ import {logo} from '../assets';
 const Hero = () => {
   return (
     <header className='w-full flex justify-center items-center flex-col'>
-      
+      <nav className='flex justify-between items-center flex-col'>
+        <img src={logo} alt='sumz_logo' className='w-28 object-contain'/>
+
+        <button type='button'
+        onClick={() => window.open('https://github.com/888Greys/AI_article_summirizer')}
+        className='black_btn'>
+          Github
+        </button>
+      </nav>
     </header>
   )
 }
