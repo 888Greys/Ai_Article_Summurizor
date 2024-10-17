@@ -7,14 +7,17 @@ export const articleApi = createApi({
     baseQuery: fetchBaseQuery({
         baseUrl: 'https://article-extractor-and-summarizer.p.rapidapi.com/' }),
 
-        prepareHeaders: () => {
+        prepareHeaders: (headers) => {
             headers.set('x-rapidapi-key', rapidApiKey);
             headers.set('x-rapidapi-host', 'article-extractor-and-summarizer.p.rapidapi.com');
+            return headers;
         },
 
     endpoints: (builder) => ({
         getSummary: builder.query({
-            query: (params) =>  'test'
+            query: (params) =>  '/summarize?url=${params.articleUrl}&length=3',
         })
     })
-})
+});
+
+export const { useLazyGetSummaryQuery } = articleApi;
