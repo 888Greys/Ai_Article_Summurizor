@@ -20,6 +20,12 @@ const Demo = () => {
           onChange={() => {}}
           required/>
 
+          <button 
+            type="submit"
+            className='submit_btn'>
+            👍 
+          </button>
+
         </form>
       </div>
     </section>
