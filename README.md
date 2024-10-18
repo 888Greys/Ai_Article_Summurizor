@@ -15,7 +15,7 @@
   <h3 align="center">An AI Article Summarizer Website</h3>
 
    <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+     An AI-powered article summarizer that simplifies your reading by providing concise summaries of lengthy articles. Built using React JS, Vite, TailwindCSS, and Redux Toolkit, this application showcases modern frontend development techniques and efficient API integration.
     </div>
 </div>
 
