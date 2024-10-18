@@ -8,7 +8,7 @@ const Demo = () => {
     summary:'',
   });
 
-  // const [useLazyGetSummaryQuery, {error, isFetching}] = useLazyGetSummaryQuery();
+  const [getSummary, {error, isFetching}] = useLazyGetSummaryQuery();
 
   const handleSubmit = async (e) => {
     alert('Form Submitted'); // Remove this line
