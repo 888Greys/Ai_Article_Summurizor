@@ -21,7 +21,7 @@
 
 ## 📋 <a name="table">Table of Contents</a>
 
-1. 🤖 [Introduction](#introduction)
+1. 🤖 [Features](#features)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
@@ -30,7 +30,7 @@
 7. 🚀 [More](#more)
 
 
-## <a name="introduction">🤖 Introduction</a>
+## <a name="features">🤖 Features</a>
 
 Summarize any kind of article with just one click using the powerful OpenAI model.
 
