@@ -21,7 +21,7 @@
 
 ## 📋 <a name="table">Table of Contents</a>
 
-1. 🤖 [Features](#features)
+1. 🚀 [Features](#features)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
@@ -30,11 +30,14 @@
 7. 🚀 [More](#more)
 
 
-## <a name="features">🤖 Features</a>
+## <a name="features">🚀 Features</a>
 
-Summarize any kind of article with just one click using the powerful OpenAI model.
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
+- Responsive Design: Beautiful and responsive UI/UX with glassmorphism design using Tailwind CSS.
+- RTK Query for API Requests: Efficiently makes conditional API requests using Redux Toolkit Query (RTK Query).
+- Local Storage Integration: Save your summarized article history locally, allowing for offline access to past summaries.
+- Form Handling & Error Catching: Properly handle form events and gracefully catch any API or user input errors.
+- Copy to Clipboard: Quickly copy summarized text to the clipboard with one click.
+- Clean and Scalable Codebase: The project is built with a structured and scalable architecture to ensure maintainability.
 
 <a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
