@@ -1,89 +1,283 @@
-AI Article Summarizer
-An AI-powered article summarizer that simplifies your reading by providing concise summaries of lengthy articles. Built using React JS, Vite, TailwindCSS, and Redux Toolkit, this application showcases modern frontend development techniques and efficient API integration.
+<div align="center">
+  <br />
+    <a href="https://youtu.be/vpvtZZi5ZWk?feature=shared" target="_blank">
+      <img src="https://github.com/adrianhajdin/project_ai_summarizer/assets/151519281/90267296-c133-4cb1-a27e-fe1a3aa522b9" alt="Project Banner">
+    </a>
+  <br />
 
-🚀 Features
-Responsive Design: Beautiful and responsive UI/UX with glassmorphism design using Tailwind CSS.
-RTK Query for API Requests: Efficiently makes conditional API requests using Redux Toolkit Query (RTK Query).
-Local Storage Integration: Save your summarized article history locally, allowing for offline access to past summaries.
-Form Handling & Error Catching: Properly handle form events and gracefully catch any API or user input errors.
-Copy to Clipboard: Quickly copy summarized text to the clipboard with one click.
-Clean and Scalable Codebase: The project is built with a structured and scalable architecture to ensure maintainability.
-🛠️ Tech Stack
-React JS: JavaScript library for building user interfaces.
-Vite: A fast development build tool that optimizes your project for speed and performance.
-Tailwind CSS: Utility-first CSS framework used to create custom, responsive designs easily.
-Redux Toolkit: A powerful tool for state management in React applications, making API requests with RTK Query.
-Local Storage: Save and retrieve article summaries directly from the browser's local storage for offline use.
-💡 Project Highlights
-Setting Up a React Project with Vite:
-Vite offers an extremely fast development environment for modern frontend applications, making the development process smoother and faster.
+  <div>
+    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/-Redux-black?style=for-the-badge&logoColor=white&logo=redux&color=764ABC" alt="redux" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
 
-Creating a Beautiful UI with Tailwind CSS:
-The app features a sleek glassmorphism UI, offering a visually appealing interface while maintaining responsiveness across all devices.
+  <h3 align="center">An AI Article Summarizer Website</h3>
 
-Making Conditional API Requests with RTK Query:
-Utilizing RTK Query, API requests are only fired under certain conditions, ensuring optimized network usage and efficient state management.
+   <div align="center">
+     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+    </div>
+</div>
 
-Saving History to Local Storage:
-User's article summaries are saved in the browser's local storage, allowing users to revisit past summaries even when offline.
+## 📋 <a name="table">Table of Contents</a>
 
-Handling Forms and Errors:
-All form submissions are managed effectively, with built-in error handling to manage user input and API errors gracefully.
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
+5. 🕸️ [Snippets](#snippets)
+6. 🔗 [Links](#links)
+7. 🚀 [More](#more)
 
-Copy to Clipboard Feature:
-Users can easily copy summaries to their clipboard with a single click, improving the user experience.
+## 🚨 Tutorial
 
-Scalable and Clean Code:
-The app's codebase is organized in a modular and scalable manner, following best practices for frontend development.
+This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
 
-📦 Installation & Setup
-To run this project locally, follow these steps:
+If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
-Clone the repository:
+<a href="https://youtu.be/vpvtZZi5ZWk?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
-bash
-Copy code
-git clone https://github.com/your-username/your-repo-name.git
-Navigate to the project directory:
+## <a name="introduction">🤖 Introduction</a>
 
-bash
-Copy code
-cd your-repo-name
-Install dependencies:
+Summarize any kind of article with just one click using the powerful OpenAI model.
 
-bash
-Copy code
+If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
+
+<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- React.js
+- TypeScript
+- Redux Toolkit
+- Tailwind CSS
+
+## <a name="features">🔋 Features</a>
+
+👉 **Modern User Interface**: A modern and user-friendly interface, offering an intuitive experience for users.
+
+👉 **Summary Generation**: Users can input the URL of a lengthy article, and the web app utilizes AI to provide a concise summary of the article content.
+
+👉 **History Saving with Local Storage**: The app includes a history feature, allowing users to save summaries locally, providing a convenient way to revisit and manage their reading history.
+
+👉 **Copy to Clipboard Functionality**: Enables users to easily share or store the summarized content by copying it to their clipboard.
+
+👉 **Advanced RTK Query API Requests**: Utilizes the advanced capabilities of Redux Toolkit (RTK) Query for making API requests. These requests fire conditionally based on specific criteria, optimizing data fetching and management.
+
+and many more, including code architecture and reusability 
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/adrianhajdin/project_ai_summarizer.git
+cd project_ai_summarizer
+```
+
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
 npm install
-Run the development server:
+```
 
-bash
-Copy code
+**Set Up Environment Variables**
+
+Create a new file named `.env` in the root of your project and add the following content:
+
+```env
+VITE_RAPID_API_ARTICLE_KEY=
+```
+
+Replace the placeholder values with your actual credentials. You can obtain these credentials by signing up on the [Rapid API website](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnl0Y19rRTVjYWNwVTZjSmR5QzBYQVF5cXJmUXxBQ3Jtc0tuS1prb052VWw2ZmdzcVhCeGpzS3MtTWNxUnVWNjZjMFR5akxFLThFNjlLcW5IaGd5QkR5ZkxXQVYxdVljZFBRTzV1TWN4dktRblUtenlGQ21RcHoxcGgtTEhKREh1STB6LWFfcnVKaTJIandrRWFsYw&q=https%3A%2F%2Frapidapi.com%2Frestyler%2Fapi%2Farticle-extractor-and-summarizer%3Futm_source%3Dyoutube.com%2FJavaScriptMastery%26utm_medium%3Dreferral%26utm_campaign%3DDevRel&v=vpvtZZi5ZWk).
+
+**Running the Project**
+
+```bash
 npm run dev
-Build for production:
+```
 
-bash
-Copy code
-npm run build
-🔧 Usage
-Enter a URL in the input field to summarize an article.
-Submit the form to trigger the API request.
-View the summarized text in the UI.
-Copy the summary to your clipboard with the click of a button.
-Summarized articles are saved in local storage for easy retrieval later.
-🖼️ Screenshots
-Main Interface
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
-Example of a summarized article
+## <a name="snippets">🕸️ Snippets</a>
 
-🛠️ Built With
-React - Frontend framework
-Vite - Development build tool
-TailwindCSS - Styling framework
-Redux Toolkit - State management and API integration
-LocalStorage - For storing user history
-📝 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+<details>
+<summary><code>App.css</code></summary>
 
-👤 Author
-Mathew Kipronoh
-Backend Developer and Full-Stack Enthusiast
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
+*/
+
+.main {
+  width: 100vw;
+  min-height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 120px 24px 160px 24px;
+  pointer-events: none;
+}
+
+.main:before {
+  background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
+  position: absolute;
+  content: "";
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.main:after {
+  content: "";
+  background-image: url("/src/assets/grid.svg");
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 0.4;
+  filter: invert(1);
+}
+
+.gradient {
+  height: fit-content;
+  z-index: 3;
+  width: 100%;
+  max-width: 640px;
+  background-image: radial-gradient(
+      at 27% 37%,
+      hsla(215, 98%, 61%, 1) 0px,
+      transparent 0%
+    ),
+    radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
+    radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
+    radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
+    radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
+    radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  filter: blur(100px) saturate(150%);
+  top: 80px;
+  opacity: 0.15;
+}
+
+@media screen and (max-width: 640px) {
+  .main {
+    padding: 0;
+  }
+}
+
+/* Tailwind Styles */
+
+.app {
+  @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+}
+
+.black_btn {
+  @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
+}
+
+.head_text {
+  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
+}
+
+.orange_gradient {
+  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+}
+
+.desc {
+  @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+}
+
+.url_input {
+  @apply block w-full rounded-md border border-gray-200 bg-white py-2.5 pl-10 pr-12 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0;
+}
+
+.submit_btn {
+  @apply hover:border-gray-700 hover:text-gray-700 absolute inset-y-0 right-0 my-1.5 mr-1.5 flex w-10 items-center justify-center rounded border border-gray-200 font-sans text-sm font-medium text-gray-400;
+}
+
+.link_card {
+  @apply p-3 flex justify-start items-center flex-row bg-white border border-gray-200 gap-3 rounded-lg cursor-pointer;
+}
+
+.copy_btn {
+  @apply w-7 h-7 rounded-full bg-white/10 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur flex justify-center items-center cursor-pointer;
+}
+
+.blue_gradient {
+  @apply font-black bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
+}
+
+.summary_box {
+  @apply rounded-xl border border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-4;
+}
+```
+
+</details>
+
+<details>
+<summary><code>index.html</code></summary>
+
+```html
+<!-- satoshi font family -->
+<link
+   href="https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,300,400&display=swap"
+   rel="stylesheet"
+/>
+<!-- inter font family -->
+<link
+   href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+   rel="stylesheet"
+/>
+```
+
+</details>
+
+## <a name="links">🔗 Links</a>
+
+Assets used in the project are [here](https://drive.google.com/file/d/11DLzrWADT-GyhuHpWXobhUwqV8peC0ef/view)
+
+## <a name="more">🚀 More</a>
+
+**Advance your skills with Next.js 14 Pro Course**
+
+Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+
+<a href="https://jsmastery.pro/next14" target="_blank">
+<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
+</a>
+
+<br />
+<br />
+
+**Accelerate your professional journey with the Expert Training program**
+
+And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
+
+<a href="https://www.jsmastery.pro/masterclass" target="_blank">
+<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
+</a>
+
+#
