@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://youtu.be/vpvtZZi5ZWk?feature=shared" target="_blank">
-      <img src="D:\Ai_Article_Summurizor\src\assets\mp.png" alt="Project Banner">
+      <img src="\src\assets\mp.png" alt="Project Banner">
     </a>
   <br />
 
