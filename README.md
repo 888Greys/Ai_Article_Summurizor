@@ -23,26 +23,35 @@
 
 1. 🚀 [Features](#features)
 2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
+3. 🔋 [highlights](#highlights)
 4. 🤸 [Quick Start](#quick-start)
 5. 🕸️ [Snippets](#snippets)
 6. 🔗 [Links](#links)
 7. 🚀 [More](#more)
 
 
-## <a name="features">🚀 Features</a>
+## <a name="highlights">🚀 Project Highlights</a>
 
-👉 **Responsive Design**: Beautiful and responsive UI/UX with glassmorphism design using Tailwind CSS.
+1. **Setting Up a React Project with Vite:**
+Vite offers an extremely fast development environment for modern frontend applications, making the development process smoother and faster.
 
-👉 **RTK Query for API Requests**: Efficiently makes conditional API requests using Redux Toolkit Query (RTK Query).
+2. **Creating a Beautiful UI with Tailwind CSS:**
+The app features a sleek glassmorphism UI, offering a visually appealing interface while maintaining responsiveness across all devices.
 
-👉 **Local Storage Integration**: Save your summarized article history locally, allowing for offline access to past summaries.
+3. **Making Conditional API Requests with RTK Query:**
+Utilizing RTK Query, API requests are only fired under certain conditions, ensuring optimized network usage and efficient state management.
 
-👉 **Form Handling & Error Catching**: Properly handle form events and gracefully catch any API or user input errors.
+4. **Saving History to Local Storage:**
+User's article summaries are saved in the browser's local storage, allowing users to revisit past summaries even when offline.
 
-👉 **Copy to Clipboard**: Quickly copy summarized text to the clipboard with one click.
+5. **Handling Forms and Errors:**
+All form submissions are managed effectively, with built-in error handling to manage user input and API errors gracefully.
 
-👉 **Clean and Scalable Codebase**: The project is built with a structured and scalable architecture to ensure maintainability.
+6.  **to Clipboard Feature:**
+Users can easily copy summaries to their clipboard with a single click, improving the user experience.
+
+7. **Scalable and Clean Code:**
+The app's codebase is organized in a modular and scalable manner, following best practices for frontend development.
 
 <a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
