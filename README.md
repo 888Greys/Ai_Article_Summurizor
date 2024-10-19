@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/vpvtZZi5ZWk?feature=shared" target="_blank">
+    <a href="" target="_blank">
       <img src="\src\assets\mp.png" alt="ai article summarizer Banner">
     </a>
   <br />
@@ -32,12 +32,17 @@
 
 ## <a name="features">🚀 Features</a>
 
-- Responsive Design: Beautiful and responsive UI/UX with glassmorphism design using Tailwind CSS.
-- RTK Query for API Requests: Efficiently makes conditional API requests using Redux Toolkit Query (RTK Query).
-- Local Storage Integration: Save your summarized article history locally, allowing for offline access to past summaries.
-- Form Handling & Error Catching: Properly handle form events and gracefully catch any API or user input errors.
-- Copy to Clipboard: Quickly copy summarized text to the clipboard with one click.
-- Clean and Scalable Codebase: The project is built with a structured and scalable architecture to ensure maintainability.
+👉 **Responsive Design**: Beautiful and responsive UI/UX with glassmorphism design using Tailwind CSS.
+
+👉 **RTK Query for API Requests**: Efficiently makes conditional API requests using Redux Toolkit Query (RTK Query).
+
+👉 **Local Storage Integration**: Save your summarized article history locally, allowing for offline access to past summaries.
+
+👉 **Form Handling & Error Catching**: Properly handle form events and gracefully catch any API or user input errors.
+
+👉 **Copy to Clipboard**: Quickly copy summarized text to the clipboard with one click.
+
+👉 **Clean and Scalable Codebase**: The project is built with a structured and scalable architecture to ensure maintainability.
 
 <a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
