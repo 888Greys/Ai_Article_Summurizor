@@ -30,7 +30,30 @@
 7. 🚀 [More](#more)
 
 
-## <a name="highlights">🚀 Project Highlights</a>
+## <a name="features">🚀 Features</a>
+
+👉 **Responsive Design**: Beautiful and responsive UI/UX with glassmorphism design using Tailwind CSS.
+
+👉 **RTK Query for API Requests**: Efficiently makes conditional API requests using Redux Toolkit Query (RTK Query).
+
+👉 **Local Storage Integration**: Save your summarized article history locally, allowing for offline access to past summaries.
+
+👉 **Form Handling & Error Catching**: Properly handle form events and gracefully catch any API or user input errors.
+
+👉 **Copy to Clipboard**: Quickly copy summarized text to the clipboard with one click.
+
+👉 **Clean and Scalable Codebase**: The project is built with a structured and scalable architecture to ensure maintainability.
+
+<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- React.js
+- TypeScript
+- Redux Toolkit
+- Tailwind CSS
+
+## <a name="highlights">🔋 Project Highlights</a>
 
 1. **Setting Up a React Project with Vite:**
 Vite offers an extremely fast development environment for modern frontend applications, making the development process smoother and faster.
@@ -52,29 +75,6 @@ Users can easily copy summaries to their clipboard with a single click, improvin
 
 7. **Scalable and Clean Code:**
 The app's codebase is organized in a modular and scalable manner, following best practices for frontend development.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
-
-## <a name="tech-stack">⚙️ Tech Stack</a>
-
-- React.js
-- TypeScript
-- Redux Toolkit
-- Tailwind CSS
-
-## <a name="features">🔋 Features</a>
-
-👉 **Modern User Interface**: A modern and user-friendly interface, offering an intuitive experience for users.
-
-👉 **Summary Generation**: Users can input the URL of a lengthy article, and the web app utilizes AI to provide a concise summary of the article content.
-
-👉 **History Saving with Local Storage**: The app includes a history feature, allowing users to save summaries locally, providing a convenient way to revisit and manage their reading history.
-
-👉 **Copy to Clipboard Functionality**: Enables users to easily share or store the summarized content by copying it to their clipboard.
-
-👉 **Advanced RTK Query API Requests**: Utilizes the advanced capabilities of Redux Toolkit (RTK) Query for making API requests. These requests fire conditionally based on specific criteria, optimizing data fetching and management.
-
-and many more, including code architecture and reusability 
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
