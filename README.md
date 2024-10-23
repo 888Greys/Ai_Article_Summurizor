@@ -118,3 +118,5 @@ npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+
+You can access the site on the internet [Aricle Summirizer](https://precious-nasturtium-b0da68.netlify.app/)
